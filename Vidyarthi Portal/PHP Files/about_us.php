@@ -85,9 +85,6 @@
         <h3>Developer Name: </h3>
         <ul>
             <li>Dipak Bapu Mali</li>
-            <li>Harshal Ravindra Patil</li>
-            <li>Shubham Kalsekar</li>
-            <li>Harshal Vinod Patil</li>
         </ul>
         </p>
     </form>
