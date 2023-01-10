@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body{
+    background-color: rgb(98, 205, 231);
+    /* background-image: url("bg3.jpg");
+    background-size: 100%; */
+}
+header {
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0px 10px 0px 0px;
+}
+
+li {
+    list-style-type: none;
+    margin: 15px 15px;
+    font-family: 'Secular One', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.form-btn{
+    background: #ffa1b5;
+    color:crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Secular One', sans-serif;
+ }
+ 
+.form-btn:hover{
+    background: crimson;
+    color:#fff;
+    font-family: 'Secular One', sans-serif;
+ }
+
+
+.Button {
+  align-items: center;
+  background-color: #f8e2f9;
+}
+table {
+  /* position:auto;  */
+
+  margin-top: 2%;
+  margin-left: 35%;
+  /* top: 30%; */
+  transform: translate(-0%, -0%);
+  width: 30%;
+  font-family: 'Secular One', sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64, 64, 64, 0.7);
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+}
+
+h3{
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  color: #000000;
+  /* font-family: 'Secular One', sans-serif; */
+}
+p {
+  text-align: center;
+  background-color: rgb(0, 207, 17);
+  color: #000000;
+  font-family: 'Secular One', sans-serif;
+}
+td,
+th {
+  padding: 15px 20px;
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+}
+th {
+  background-color: #8d3c92;
+  color: #ffffff;
+  font-family: 'Secular One', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+tr {
+  width: 100%;
+  background-color: #ddb8e1;
+  font-family: 'Secular One', sans-serif;
+}
+tr:nth-child(even) {
+  background-color: #f2d1f4;
+}
+input[type="text"] {
+  width: 60%;
+  padding: 7px;
+  margin: 5px 0;
+  border: 1px solid #000000;
+}
+input[type="submit"] {
+  width: 80%;
+  padding: 9px;
+  margin: 5px 0;
+  font-family: 'Secular One', sans-serif;
+  border: 2px solid #000000;
+  outline: none;
+  background-color: #f7b8fc;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased
+}
+
+body {
+    background-color: rgb(98, 205, 231);
+    font-family: rubik, sans-serif;
+    align-items: center;
+    /* background-image: url("bg3.jpg");
+    background-size: 100%; */
+}
+header {
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0px 10px 0px 0px;
+}
+
+li {
+    list-style-type: none;
+    margin: 15px 15px;
+    font-family: 'Secular One', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h3{
+    background-color: #00d62e;
+    text-align: center;
+}
+
+h2{
+    background-color: #e46868;
+    text-align: center;
+}
+
+.normalp{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    margin-top: 4%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.login-form {
+    background: #fff;
+    width: 500px;
+    margin: 5% auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, .2)
+}
+
+.login-form h1 {
+    padding: 35px 35px 0;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+}
+
+.login-form .content {
+    padding: 35px;
+    text-align: center;
+}
+
+.login-form .input-details {
+    padding: 12px 5px
+}
+
+.login-form .input-details input {
+    font-size: 16px;
+    display: block;
+    font-family: rubik, sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.login-form textarea {
+    width: 415px;
+    height: 100px;
+    resize: none;
+}
+
+.login-form a.link {
+    text-decoration: none;
+    color: #747474;
+    letter-spacing: .2px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.login-form a.signin {
+    text-decoration: underline;
+    color: #000000;
+    letter-spacing: .2px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.login-form .action {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row
+}
+
+.login-form .action input {
+    width: 100%;
+    border: none;
+    padding: 18px;
+    font-family: rubik, sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #e8e9ec;
+    color: rgb(0, 0, 0);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+    letter-spacing: .2px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.login-form .action input a {
+    color: rgb(7, 7, 7);
+    font-family: 'Signika', sans-serif;
+    font-size: large;
+}
+
+.login-form .action input:hover {
+    background: #d8d8d8
+}
+
+.login-form .action input:nth-child(2) {
+    background: #2d3b55;
+    color: #fff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 4px
+}
+
+.login-form .action input:nth-child(2):hover {
+    background: #050505
+}
+
+a {
+    text-decoration: none;
+}
+/* .copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: 'Secular One', sans-serif;
+} */

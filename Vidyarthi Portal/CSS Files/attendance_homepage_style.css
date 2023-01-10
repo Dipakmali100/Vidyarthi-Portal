@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(98, 205, 231);
+    align-items: center;
+    /* background-image: url("bg3.jpg");
+    background-size: 100%; */
+}
+
+header {
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0px 10px 0px 0px;
+}
+
+li {
+    list-style-type: none;
+    margin: 15px 15px;
+    font-family: 'Secular One', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    margin: 1% 4%;
+    font-size: medium;
+    font-family: 'Secular One', sans-serif;
+}
+
+.form1 input{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    margin: 1% 4%;
+    font-size: medium;
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+}
+
+h3{
+    background-color: #00d62e;
+    text-align: center;
+}
+h2{
+    background-color: #e46868;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.normalp{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    margin-top: 2%;
+    font-size: large;
+}
+
+.content {
+    margin: 3% 0px;
+}
+
+/* .dateform{
+    margin: 3% 0px;
+    
+}
+
+#idate{
+    height: 4vh;
+    width: 12vw;
+    border-bottom-left-radius: 10px;
+    border: 1px black;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+#isubmit{
+    width: 7vw;
+    border-top-right-radius: 10px;
+    border: 1px black;
+    background-color: rgb(189, 189, 189);
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+} */

@@ -1,0 +1,126 @@
+@font-face {
+  src: url("fonts/AmstelvarAlpha-VF.ttf");
+  font-family: "AmstelvarAlpha";
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(98, 205, 231);
+
+}
+
+header {
+  background-color: black;
+  height: 50px;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin: 0px 10px 0px 0px;
+}
+
+li {
+  list-style-type: none;
+  margin: 15px 15px;
+  font-family: 'Secular One', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.container {
+  max-width: 50%;
+  background-color: #ecbcff;
+  padding: 20px;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 1.9);
+}
+.container h1 {
+  text-align: center;
+}
+input {
+  height: 120%;
+  width: 80%;
+  outline: none;
+  font-size: 18px;
+  margin-top: 1.5%;
+  padding: 12px 20px;
+  padding-left: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+textarea {
+  height: 90%;
+  width: 80%;
+  margin-top: 1.5%;
+  outline: none;
+  font-size: 17px;
+  padding: 12px 20px;
+  padding-left: 20px;
+
+  border: 1px solid black;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+input[type="submit"] {
+  height: 120%;
+  width: 60%;
+  outline: none;
+  font-size: 18px;
+  margin-top: 1.5%;
+  padding: 12px 20px;
+  padding-left: 20px;
+  border: 2px solid black;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+input[type="submit"]:hover {
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 30px 40px 30px;
+}
+.btn {
+  color: antiquewhite;
+  background-color: rgb(64, 142, 142);
+  padding: 8px 12px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.submitmsg {
+  color: rgb(3, 65, 3);
+  text-align: center;
+  font-size: xx-large;
+}
+input:hover {
+  width: 90%;
+  height: 5%;
+  border: 2px;
+  border: 200%;
+  border: 2px solid rgb(0, 190, 0);
+}
+textarea:hover {
+  width: 90%;
+  height: 5%;
+  border: 2px solid rgb(0, 190, 0);
+  border: 200%;
+}
