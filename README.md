@@ -1,9 +1,9 @@
 # VIDYARTHI-PORTAL
-**Students Attendance And Mark Management System**
+### Students Attendance And Mark Management System
 
-*In this Vidyarthi Portal, The teacher can easily update the attendance and marks with shortcuts and easy attendance marking features. 
-*The teacher can also upload and delete documents related to college curriculums for students. 
-*Students can see their attendance and marks from anywhere and anytime & download the documents which their respective teachers uploaded for them.
+- In this Vidyarthi Portal, The teacher can easily update the attendance and marks with shortcuts and easy attendance marking features. 
+- The teacher can also upload and delete documents related to college curriculums for students. 
+- Students can see their attendance and marks from anywhere and anytime & download the documents which their respective teachers uploaded for them.
 
 # Portal-GUI
 **1. Vidyathi Portal Homepage**
