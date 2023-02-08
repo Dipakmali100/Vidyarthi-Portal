@@ -14,8 +14,18 @@
 - If teacher want to update previous days attendance, then he can choose "Update Manually" Option, where he can directly select date and enter roll numbers by selecting "A or P" option teacher can mark the attendance. (A= Absent & P= Present)
 - Teacher can also see the overall full attendance of the classroom by clicking "View Full Attendance" Option.
 - Teacher can also update the internal exams marks of students by adding manually.
-- Teacher can also see the classroom students performance
-
+- Teacher can also see the classroom students performance by clicking on "Student's Performance" option, Here teacher can see Max-Mark, Min-Mark, Avg-Marks of the classroom and also the Number of pass and fail students with their roll numbers. Teacher can also see the passing percentage of whole class for each exam.
+- Teacher can also see the all marks of the class by clicking on "View Marks" Option.
+- Teacher can upload the Important documents, So student can see that documents.
+- Only teacher can delete the any not needed documents.
+- Teacher can also see the Number Of Downloads of Uploaded documents. So, teacher will get to know that how many student really downloads the uploaded documents.
+    
+### Student Side Features 
+- Every student also has individual login credentials.
+- Student can see there attendance from anywhere, by clicking the "View Attendance" Option. Here student will get to know there every subject attendance and also the overall attendance in percentage.
+- Student can also see the lecture count he attended from total number of lectures done.
+- Student can also see the marks of internal exams by clicking on "View Marks" option. After clicking, student will get to know there marks of each subjects of each exams with including there average of all exams for each subject out of 40.
+- Student can download the uploaded documents of teachers from anywhere.
 
 # Installation On Localhost
 1. Download all the php files, css files, all images, demo database and Upload folder.
