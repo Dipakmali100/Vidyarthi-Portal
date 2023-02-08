@@ -5,6 +5,16 @@
 - The teacher can also upload and delete documents related to college curriculums for students. 
 - Students can see their attendance and marks from anywhere and anytime & download the documents which their respective teachers uploaded for them.
 
+# INSTALLATION ON LOCALHOST
+1. Download all the php files, css files, all images, demo database and Upload folder.
+2. Install XAMPP and start Apache and MySQL server in XAMPP Control Panel.
+3. Open the htdocs folder which is available in XAMPP Folder and make folder "vidyarthiportal" (you can take any name)
+4. Put all the files of php, CSS, images, and Upload folder in vidyarthiportal folder.
+5. Now open any browser and search 
+`http://localhost/vidyarthiportal/` 
+   
+- **Now You Can Use VIDYARTHI-PORTAL**
+
 # Portal-GUI
 **1. Vidyathi Portal Homepage**
 ![Screenshot 2023-01-11 013542](https://user-images.githubusercontent.com/89243145/211652586-861387f3-1c7f-4c4a-a846-8fd78ae41fef.png)
