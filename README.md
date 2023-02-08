@@ -5,6 +5,18 @@
 - The teacher can also upload and delete documents related to college curriculums for students. 
 - Students can see their attendance and marks from anywhere and anytime & download the documents which their respective teachers uploaded for them.
 
+# New Features!
+### Teacher Side Features   
+- Every teacher has individual login credentials.
+- Teacher can directly mark all students as a Present or Absent by choosing the option "ALL PRESENT" or "ALL ABSENT" for current date.
+- Teacher can choose "MAX PRESENT" option when maxmimum students are present in the lecture and only add the absent students roll numbers. So all students get present except entered ones for current date.
+- Teacher can choose "MAX ABSENT" option when maxmimum students are absent in the lecture and only add the present students roll numbers. So all students get absent except entered ones for current date.
+- If teacher want to update previous days attendance, then he can choose "Update Manually" Option, where he can directly select date and enter roll numbers by selecting "A or P" option teacher can mark the attendance. (A= Absent & P= Present)
+- Teacher can also see the overall full attendance of the classroom by clicking "View Full Attendance" Option.
+- Teacher can also update the internal exams marks of students by adding manually.
+- Teacher can also see the classroom students performance
+
+
 # Installation On Localhost
 1. Download all the php files, css files, all images, demo database and Upload folder.
 2. Install XAMPP and start Apache and MySQL server in XAMPP Control Panel.
